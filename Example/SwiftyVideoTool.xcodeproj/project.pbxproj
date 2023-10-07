@@ -14,6 +14,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B4CAB3AC2ACC0EAD00589833 /* Resouces in Resources */ = {isa = PBXBuildFile; fileRef = B4CAB3AB2ACC0EAD00589833 /* Resouces */; };
+		B4CAB3B02ACC0F0E00589833 /* JFRawVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CAB3AE2ACC0F0E00589833 /* JFRawVideoView.swift */; };
+		B4CAB3B12ACC0F0E00589833 /* JFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CAB3AF2ACC0F0E00589833 /* JFPlayerView.swift */; };
 		B901E1D8EA0DBA3203AB9677 /* Pods_SwiftyVideoTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA224990BACEE934DD23283A /* Pods_SwiftyVideoTool_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		1B7DFB716CBAA695951EE746 /* Pods-SwiftyVideoTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVideoTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyVideoTool_Example/Pods-SwiftyVideoTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3084C5BF43FE775558D9BD67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3084C5BF43FE775558D9BD67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4F52E06F5A74C73CAC522894 /* Pods-SwiftyVideoTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVideoTool_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyVideoTool_Example/Pods-SwiftyVideoTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyVideoTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyVideoTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +47,12 @@
 		6B67EAF19F00BC9B19603146 /* Pods-SwiftyVideoTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVideoTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyVideoTool_Tests/Pods-SwiftyVideoTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7F3B8F831CD479C05A92972E /* Pods-SwiftyVideoTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVideoTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyVideoTool_Tests/Pods-SwiftyVideoTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA224990BACEE934DD23283A /* Pods_SwiftyVideoTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVideoTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4AB4D631150F17165905D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4CAB3AB2ACC0EAD00589833 /* Resouces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resouces; sourceTree = "<group>"; };
+		B4CAB3AE2ACC0F0E00589833 /* JFRawVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFRawVideoView.swift; sourceTree = "<group>"; };
+		B4CAB3AF2ACC0F0E00589833 /* JFPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFPlayerView.swift; sourceTree = "<group>"; };
+		FB4AB4D631150F17165905D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB6EB2759A4C6AACAA1F9395 /* Pods_SwiftyVideoTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVideoTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD3949D1CBE6960E9CB54F65 /* SwiftyVideoTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyVideoTool.podspec; path = ../SwiftyVideoTool.podspec; sourceTree = "<group>"; };
+		FD3949D1CBE6960E9CB54F65 /* SwiftyVideoTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyVideoTool.podspec; path = ../SwiftyVideoTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,6 @@
 				7F3B8F831CD479C05A92972E /* Pods-SwiftyVideoTool_Tests.debug.xcconfig */,
 				6B67EAF19F00BC9B19603146 /* Pods-SwiftyVideoTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,8 +110,10 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyVideoTool */ = {
 			isa = PBXGroup;
 			children = (
+				B4CAB3AD2ACC0F0000589833 /* VideoView */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				B4CAB3AB2ACC0EAD00589833 /* Resouces */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -149,6 +156,15 @@
 				FB4AB4D631150F17165905D6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B4CAB3AD2ACC0F0000589833 /* VideoView */ = {
+			isa = PBXGroup;
+			children = (
+				B4CAB3AF2ACC0F0E00589833 /* JFPlayerView.swift */,
+				B4CAB3AE2ACC0F0E00589833 /* JFRawVideoView.swift */,
+			);
+			name = VideoView;
 			sourceTree = "<group>";
 		};
 		E17DC95C441E1FB2F4CF71E7 /* Frameworks */ = {
@@ -213,10 +229,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 4L75765R87;
+						LastSwiftMigration = 1500;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4L75765R87;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				B4CAB3AC2ACC0EAD00589833 /* Resouces in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -313,10 +333,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyVideoTool_Example/Pods-SwiftyVideoTool_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JFPopup/JFPopup.framework",
+				"${BUILT_PRODUCTS_DIR}/JRBaseKit/JRBaseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyVideoTool/SwiftyVideoTool.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFPopup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRBaseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVideoTool.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +359,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B4CAB3B12ACC0F0E00589833 /* JFPlayerView.swift in Sources */,
+				B4CAB3B02ACC0F0E00589833 /* JFRawVideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +506,19 @@
 			baseConfigurationReference = 1B7DFB716CBAA695951EE746 /* Pods-SwiftyVideoTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4L75765R87;
 				INFOPLIST_FILE = SwiftyVideoTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryfans.swiftyVideoTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -493,13 +527,18 @@
 			baseConfigurationReference = 4F52E06F5A74C73CAC522894 /* Pods-SwiftyVideoTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4L75765R87;
 				INFOPLIST_FILE = SwiftyVideoTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryfans.swiftyVideoTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -507,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F3B8F831CD479C05A92972E /* Pods-SwiftyVideoTool_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4L75765R87;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -517,7 +557,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryfans.swiftyVideoTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -529,13 +569,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B67EAF19F00BC9B19603146 /* Pods-SwiftyVideoTool_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4L75765R87;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryfans.swiftyVideoTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

@@ -1,0 +1,32 @@
+PODS:
+  - JFPopup (1.5.4):
+    - JRBaseKit (~> 1.1.1)
+  - JRBaseKit (1.1.2)
+  - SnapKit (5.6.0)
+  - SwiftyVideoTool (0.1.0):
+    - JRBaseKit (~> 1.1.2)
+
+DEPENDENCIES:
+  - JFPopup
+  - SnapKit
+  - SwiftyVideoTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JFPopup
+    - JRBaseKit
+    - SnapKit
+
+EXTERNAL SOURCES:
+  SwiftyVideoTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JFPopup: c3ada13bbda3cfe85bd71228e20a0b622eab72af
+  JRBaseKit: 825cca458a73990f6019deaaaaff75840dea477f
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyVideoTool: 9b7f93cb089022fab09cfb5493b0aba296f97e69
+
+PODFILE CHECKSUM: 498abb4eb567c357388b39495dbd571b06e78393
+
+COCOAPODS: 1.11.3

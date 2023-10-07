@@ -1,0 +1,31 @@
+{
+  "name": "SwiftyVideoTool",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyVideoTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JerryFans/SwiftyVideoTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JerryFans": "fanjiarong_haohao@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JerryFans/SwiftyVideoTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "SwiftyVideoTool/Classes/**/*",
+  "dependencies": {
+    "JRBaseKit": [
+      "~> 1.1.2"
+    ]
+  },
+  "swift_version": "5.0"
+}

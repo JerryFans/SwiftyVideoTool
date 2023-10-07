@@ -1,0 +1,6 @@
+framework module SwiftyVideoTool {
+  umbrella header "SwiftyVideoTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

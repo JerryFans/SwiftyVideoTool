@@ -5,9 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyVideoTool.svg?style=flat)](https://cocoapods.org/pods/SwiftyVideoTool)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyVideoTool.svg?style=flat)](https://cocoapods.org/pods/SwiftyVideoTool)
 
+Developing...
+
+A Swifty API for Video Session Export. Support custom Video Setting and make mix water mark with easy API. Inspired by SDAVAssetExportSession.
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first. 
 
 ## Requirements
 
